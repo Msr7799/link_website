@@ -1,0 +1,43 @@
+{
+  "servers": {
+    "memory-bank-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@aakarsh-sasi/memory-bank-mcp",
+        "--key",
+        "dcdcdbe5-1b01-442a-a730-dc36c5b0d17c"
+      ]
+    },
+    "server-sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@smithery-ai/server-sequential-thinking",
+        "--key",
+        "dcdcdbe5-1b01-442a-a730-dc36c5b0d17c",
+        "--profile",
+        "circular-canid-qlXdLk"
+      ]
+    },
+    "shadcn": {
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ]
+    },
+    "tavily-remote": {
+     "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://mcp.tavily.com/mcp/?tavilyApiKey=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"
+      ]
+    }
+}
+}
